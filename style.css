@@ -288,6 +288,20 @@ section p:last-child {
     margin-bottom: 0;
 }
 
+.hero-image-container {
+    display: flex;
+    justify-content: center;
+    margin: 24px 0;
+}
+
+.hero-image {
+    width: 90%;
+    height: 280px;
+    object-fit: fill;
+    border-radius: var(--radio-medio);
+    box-shadow: var(--sombra-suave);
+}
+
 
 /* =========================================================
    LISTAS
